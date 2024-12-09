@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="grid.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="form-container">
+              <div class="form-header">
+                <h2>Registration form</h2>
+              </div>
+              <form class="form" id="form">
+                <div class="input-container">
+                    <label>Name</label>
+                    <input type="text"  id="name" class="field" placeholder="Name" autocomplete="off">
+                    <small class="error-msg"></small>
+                </div>
+
+                <div class="input-container">
+                    <label>Email Address</label>
+                    <input type="text" name="email" id="email"  class="field" autocomplete="off" placeholder="Email">
+                    <small class="error-msg"></small>
+                </div>
+                 
+
+                <div class="input-container">
+                    <label>Password</label>
+                    <input type="password" name="password" id="password"  class="field" autocomplete="off" placeholder="Password">
+                    <small class="error-msg"></small>
+                </div>
+
+                <div class="input-container">
+                    <label>Phone Number</label>
+                    <input type="text"  id="phonenumber"  class="field" autocomplete="off" placeholder="Phone Number">
+                    <small class="error-msg"></small>
+                </div>
+
+                <input type="submit" value="Register" class="submit-btn">
+                
+              </form>
+        </div>
+    </div>
+    <script src="common.js"></script>
+</body>
+</html>
